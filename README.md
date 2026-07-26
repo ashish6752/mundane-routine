@@ -210,11 +210,11 @@ mundane-routine/
 
 | User Login Page | Add Task Portal |
 | :---: | :---: |
-| ![Login Page](assets/screenshots/login-page.png) | ![Add Task](assets/screenshots/task-entry.png) |
+| ![Login Page](assets/images/login.png) | ![Add Task](assets/images/add-entry.png) |
 
 | Task Calendar View | Analytics Bar Graph |
 | :---: | :---: |
-| ![Calendar View](assets/screenshots/calendar-view.png) | ![Statistics Graph](assets/screenshots/statistics-graph.png) |
+| ![Calendar View](assets/images/calendar.png) | ![Statistics Graph](assets/images/graph.png) |
 
 </div>
 
