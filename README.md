@@ -9,9 +9,9 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/mundane-routine?style=for-the-badge)](https://github.com/your-username/mundane-routine/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/your-username/mundane-routine?style=for-the-badge)](https://github.com/your-username/mundane-routine/issues)
-[![GitHub Forks](https://img.shields.io/github/forks/your-username/mundane-routine?style=for-the-badge)](https://github.com/your-username/mundane-routine/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/ashish6752/mundane-routine?style=for-the-badge)](https://github.com/ashish6752/mundane-routine/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/ashish6752/mundane-routine?style=for-the-badge)](https://github.com/ashish6752/mundane-routine/issues)
+[![GitHub Forks](https://img.shields.io/github/forks/ashish6752/mundane-routine?style=for-the-badge)](https://github.com/ashish6752/mundane-routine/network/members)
 
 </div>
 
