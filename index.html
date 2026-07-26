@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundane Routine - Smart To-Do List</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1>Mundane Routine</h1>
+            <p class="subtitle">Smart To-Do List & Habit Tracker</p>
+            <div id="userGreeting" class="user-greeting"></div>
+        </header>
+
+        <main class="main-card">
+            <form id="taskForm" class="task-form">
+                <div class="form-group">
+                    <input type="text" id="taskTitle" placeholder="Task Title (e.g. sem preparation)" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="date" id="taskDate" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="time" id="taskTime" required>
+                </div>
+
+                <div class="form-group">
+                    <select id="taskPriority" required>
+                        <option value="" disabled selected>Select Priority</option>
+                        <option value="High">High</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low">Low</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Add Task</button>
+            </form>
+
+            <div class="action-buttons">
+                <a href="view-tasks.html" class="btn btn-success">View Tasks</a>
+                <button id="btnShowGraph" class="btn btn-success">Show Graph</button>
+                <button id="btnViewReminders" class="btn btn-success">View All Remainders</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for Analytics Graph -->
+    <div id="graphModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeGraphModal">&times;</span>
+            <h2>Completed vs Uncompleted Tasks</h2>
+            <div class="chart-container">
+                <canvas id="taskChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Reminders -->
+    <div id="reminderModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeReminderModal">&times;</span>
+            <h2>Task Reminders</h2>
+            <div id="reminderList" class="reminder-list"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
