@@ -299,7 +299,7 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 
 ## 👨‍💻 Developer Information
 
-- **Project Lead**: Senior Software Engineer
-- **Repository**: [https://github.com/your-username/mundane-routine](https://github.com/your-username/mundane-routine)
+- **Project Lead**: Ashish
+- **Repository**: [https://github.com/ashish6752/mundane-routine](https://github.com/ashish6752/mundane-routine)
 - **Project Name**: Mundane Routine - Smart To-Do List
 - **Tech Stack**: HTML5 | CSS3 | Vanilla JavaScript | Chart.js | LocalStorage
